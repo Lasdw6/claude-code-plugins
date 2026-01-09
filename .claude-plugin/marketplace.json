@@ -15,8 +15,8 @@
         "name": "Claude Code Community"
       },
       "source": {
-        "type": "github",
-        "repo": "Lasdw6/Claude-notes"
+        "source": "url",
+        "url": "https://github.com/Lasdw6/Claude-notes.git"
       },
       "category": "productivity"
     }
