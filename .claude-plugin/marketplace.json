@@ -1,18 +1,24 @@
 {
   "name": "claude-code-plugins",
-  "displayName": "Claude Code Plugins",
-  "description": "Collection of Claude Code plugins including Claude Notes for persistent design intent",
+  "version": "1.0.0",
+  "description": "Collection of Claude Code plugins",
+  "owner": {
+    "name": "Vividh Mahajan",
+    "email": "vividhmahajan@gmail.com"
+  },
   "plugins": [
     {
       "name": "claude-notes",
-      "displayName": "Claude Notes",
       "description": "Maintains persistent file-level design notes that prevent accidental violations of design intent, assumptions, and intentional shortcuts across LLM sessions",
       "version": "1.0.0",
       "author": {
         "name": "Claude Code Community"
       },
-      "repository": "https://github.com/Lasdw6/Claude-notes",
-      "path": "."
+      "source": {
+        "type": "github",
+        "repo": "Lasdw6/Claude-notes"
+      },
+      "category": "productivity"
     }
   ]
 }
